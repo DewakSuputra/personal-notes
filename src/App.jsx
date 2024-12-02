@@ -36,7 +36,7 @@ const App = () => {
       return;
     }
     const newNote = {
-      id: newNotes.length + 1,
+      id: +new Date(),
       title,
       body,
       archived: false,
